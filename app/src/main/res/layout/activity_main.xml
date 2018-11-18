@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="kz.education.kstu.personalworksix.MainActivity">
+
+    <TextView
+        android:id="@+id/label"
+        android:textAlignment="center"
+        android:padding="8dp"
+        android:textSize="16sp"
+        android:text="@string/search_book"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/search"
+        android:layout_below="@+id/label"
+        android:hint="@string/enter_text"
+        android:fontFamily="sans-serif"
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/searchBtn"
+        android:layout_below="@+id/label"
+        android:layout_alignRight="@+id/search"
+        android:layout_alignEnd="@+id/search"
+        android:background="@drawable/search"
+        android:layout_margin="8dp"
+        android:layout_width="32dp"
+        android:layout_height="32dp" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_margin="8dp"
+        android:layout_below="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:id="@+id/empty"
+        android:layout_centerInParent="true"
+        android:fontFamily="sans-serif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/empty"/>
+</RelativeLayout>

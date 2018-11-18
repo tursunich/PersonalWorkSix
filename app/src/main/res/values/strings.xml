@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PersonalWorkSix</string>
+    <string name="empty">Данных нет</string>
+    <string name="enter_text">Введите название книги</string>
+    <string name="search_book">Функционал для поиска книг по заданной тематике</string>
+    <string name="empty_request">Запрос не может быть пустым</string>
+    <string name="no_internet">Нет подключения к интернету</string>
+    <string name="please_wait">Пожалуйста подождите</string>
+    <string name="publisher">Издатель: %s</string>
+    <string name="publishDate">Дата: %s</string>
+    <string name="price">Цена: %s</string>
+</resources>
